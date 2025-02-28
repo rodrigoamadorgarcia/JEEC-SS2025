@@ -42,7 +42,7 @@ fun MainScreen(
                         contentAlignment = Alignment.Center
                     ) {
                         Text(
-                            text = "Bienvenido a la App",
+                            text = "Juntas en el ciclo",
                             fontFamily = SanFrancisco,
                             fontWeight = FontWeight.Bold,
                             fontSize = 20.sp,
@@ -51,13 +51,13 @@ fun MainScreen(
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = Color(0xFF00695C) // Color personalizado para el top bar
+                    containerColor = Color(0xFFF4B7D9)
                 )
             )
         },
         bottomBar = {
             BottomAppBar(
-                containerColor = Color(0xFF00695C),
+                containerColor = Color(0xFFF4B7D9),
                 contentColor = Color.White
             ) {
                 // Primer ícono con texto
@@ -70,7 +70,7 @@ fun MainScreen(
                         verticalArrangement = Arrangement.Center
                     ) {
                         Icon(
-                            painter = painterResource(id = R.drawable.cetis22),
+                            painter = painterResource(id = R.drawable.home_24px),
                             contentDescription = "Inicio",
                             tint = Color.White
                         )
@@ -94,7 +94,7 @@ fun MainScreen(
                         verticalArrangement = Arrangement.Center
                     ) {
                         Icon(
-                            painter = painterResource(id = R.drawable.cetis22),
+                            painter = painterResource(id = R.drawable.account_circle_24px),
                             contentDescription = "Perfil",
                             tint = Color.White
                         )
@@ -122,7 +122,7 @@ fun MainScreen(
                 fontFamily = SanFrancisco,
                 fontWeight = FontWeight.Bold,
                 fontSize = 25.sp,
-                color = Color(0xFF00695C)
+                color = Color(0xFF625E9D)
             )
 
             Spacer(modifier = Modifier.height(16.dp))
